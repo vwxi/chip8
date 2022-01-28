@@ -3,16 +3,12 @@
  * written by pala <pala@tilde.institute>
  */
 
-#if defined(_WIN32) || defined(_WIN64)
-#define _CRT_SECURE_NO_WARNINGS
-#endif
-
 #include <time.h>
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 /* macros */
 #define WIDTH    640
