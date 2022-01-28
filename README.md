@@ -4,11 +4,11 @@ an emulator
 
 ## ?
 
-`gcc -ansi -Wall -Wextra -o chip8 chip8.c -lsdl`
+`gcc -ansi -Wall -Wextra -o chip8 chip8.c -lSDL2`
 
 ## !
 
-no sound, requires sdl
+no sound, requires sdl2
 
 ## keys
 
